@@ -15,11 +15,12 @@ body{
     background-color: black;
 }
 
+
 .gradient-button1 {
+    margin: 0 20%;
+    border: 1px rgb(255, 238, 0) solid;
     position: relative;
     top: 35px;
-    left: 250px;
-    width: 230px;
     height: 70px;
     display: flex;
     align-items: center;
@@ -84,10 +85,10 @@ body{
 
 
 .gradient-button2 {
+    margin: 0 20%;
+    border: 1px rgb(255, 238, 0) solid;
     position: relative;
-    top: -75px;
-    left: 250px;
-    width: 230px;
+    top: -70px;
     height: 70px;
     display: flex;
     align-items: center;
@@ -96,11 +97,9 @@ body{
     font-family: poppins;
     font-size: 20px;
     font-weight: 300;
-    text-decoration:none;
     border-radius: 10px;
     overflow: hidden;
     cursor: pointer;
-    text-decoration: none;
 }
 
 .button2 {
@@ -143,23 +142,22 @@ body{
 
 }
 .gradient-button {
-              position: relative;
-              top: -225px;
-              left: 250px;
-              width: 230px;
-              height: 70px;
-              display: flex;
-              align-items: center;
-              justify-content: center;
-              color: #fff;
-              font-family: poppins;
-              font-size: 20px;
-              font-weight: 300;
-              border-radius: 10px;
-              overflow: hidden;
-              cursor: pointer;
-              text-decoration: none;
-          }
+    margin: 0 20%;
+    border: 1px rgb(255, 238, 0) solid;
+    position: relative;
+    top: -215px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-family: poppins;
+    font-size: 20px;
+    font-weight: 300;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+}
           
 .button {
               width: 100%;
